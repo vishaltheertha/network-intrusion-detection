@@ -38,25 +38,33 @@ the bootstrap 95% confidence interval for the f1-score was approximately **99.22
 
 the depth-10 decision tree provides a strong balance between predictive performance and model complexity, achieving an f1-score of 99.36%.
 
-![model comparison](assets/model_comparison.png)
+<p align="center">
+  <img src="assets/model_comparison.png" width="850">
+</p>
 
 ### confusion matrix
 
 the selected model correctly classified 17,885 of 18,000 test samples, with only 22 false positives and 93 false negatives.
 
-![confusion matrix](assets/confusion_matrix.png)
+<p align="center">
+  <img src="assets/confusion_matrix.png" width="600">
+</p>
 
 ### feature importance
 
 backward packet length standard deviation and average packet size were the two most influential features used by the decision tree.
 
-![feature importance](assets/feature_importance.png)
+<p align="center">
+  <img src="assets/feature_importance.png" width="800">
+</p>
 
 ### roc and precision-recall performance
 
 the selected decision tree achieved a roc-auc of 0.9984, demonstrating excellent discrimination between benign and malicious network traffic.
 
-![roc and precision-recall curves](assets/roc_pr_curves.png)
+<p align="center">
+  <img src="assets/roc_pr_curves.png" width="850">
+</p>
 
 ## methodology
 
