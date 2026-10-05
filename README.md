@@ -47,7 +47,7 @@ the depth-10 decision tree provides a strong balance between predictive performa
 the selected model correctly classified 17,885 of 18,000 test samples, with only 22 false positives and 93 false negatives.
 
 <p align="center">
-  <img src="assets/confusion_matrix.png" width="600">
+  <img src="assets/confusion_matrix.png" width="500">
 </p>
 
 ### feature importance
