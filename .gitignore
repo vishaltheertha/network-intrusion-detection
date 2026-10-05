@@ -1,0 +1,23 @@
+# datasets
+*.csv
+*.xlsx
+*.parquet
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# jupyter
+.ipynb_checkpoints/
+
+# ide / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# temporary
+*.log
+*.tmp
